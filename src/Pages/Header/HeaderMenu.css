@@ -1,0 +1,14 @@
+.header {
+  padding: 70px 100px !important;
+}
+.header-nav {
+  display: flex;
+  transition: all 300ms ease;
+}
+.header-nav-font {
+  font-weight: 700;
+  font-size: 18px;
+}
+.header-active {
+  opacity: 50%;
+}

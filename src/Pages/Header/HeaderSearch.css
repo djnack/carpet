@@ -1,0 +1,53 @@
+.fix-background {
+  background-color: var(--bodyColorOpacity);
+  height: 100vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+}
+.search-position {
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+  position: relative;
+  top: 9rem;
+}
+.search-box {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  line-height: 50px;
+}
+.shadow-xl {
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.02) !important;
+}
+.page-title div {
+  -webkit-margin-end: auto;
+  margin-inline-end: auto;
+}
+.border-0 {
+  border: 0 !important;
+}
+.rounded-sm {
+  border-radius: 12px !important;
+}
+.search-box input {
+  -webkit-padding-end: 40px;
+  -webkit-padding-start: 1rem;
+  background-color: var(--bodyColor);
+  border-radius: 1rem;
+  color: var(--colorTextLight);
+  line-height: 45px;
+  outline: none !important;
+  padding-inline-start: 1rem;
+  padding-inline-end: 40px;
+  text-align: start;
+  width: 100%;
+}
+.search-box .fa-search {
+  inset-inline-end: 0;
+  line-height: 40px;
+  padding: 0 30px 0 15px;
+  position: absolute;
+}
